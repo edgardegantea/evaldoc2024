@@ -1,0 +1,42 @@
+CRITICAL - 2024-02-13 17:03:57 --> Undefined array key 42
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 1190.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(1190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 17:04:18 --> Undefined array key 42
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 1190.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(1190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 17:04:47 --> Undefined array key 42
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 1190.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(1190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 17:42:45 --> Undefined array key 42
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 1190.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(1190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 21:09:03 --> Undefined array key 42
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 1190.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(1190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-13 21:21:34 --> Undefined array key 45
+in APPPATH/Controllers/Admin/EvaluacionController.php on line 1292.
+ 1 APPPATH/Controllers/Admin/EvaluacionController.php(1292): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->downloadTeacherReport()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

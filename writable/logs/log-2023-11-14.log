@@ -1,0 +1,29 @@
+ERROR - 2023-11-14 15:09:26 --> mysqli_sql_exception: Duplicate entry '2023-2' for key 'codigo' in /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/BaseModel.php(782): CodeIgniter\Model->doInsert()
+#6 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Model.php(730): CodeIgniter\BaseModel->insert()
+#7 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/app/Controllers/Admin/PeriodoEscolarController.php(79): CodeIgniter\Model->insert()
+#8 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/CodeIgniter.php(934): App\Controllers\Admin\PeriodoEscolarController->create()
+#9 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-11-14 15:09:26 --> Duplicate entry '2023-2' for key 'codigo'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/Admin/PeriodoEscolarController.php(79): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\PeriodoEscolarController->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

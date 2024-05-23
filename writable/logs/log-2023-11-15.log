@@ -1,0 +1,6 @@
+CRITICAL - 2023-11-15 17:29:27 --> Class "App\Models\usuarioModel" not found
+in APPPATH/Controllers/Admin/EstudianteController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Admin\EstudianteController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

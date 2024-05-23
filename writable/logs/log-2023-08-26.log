@@ -1,0 +1,27 @@
+ERROR - 2023-08-26 14:15:28 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`dbs11690318`.`evaluacion`, CONSTRAINT `evaluacion_asignatura_id_foreign` FOREIGN KEY (`asignatura_id`) REFERENCES `asignaturas` (`id`)) in /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+#6 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/app/Controllers/Admin/AsignaturaController.php(155): CodeIgniter\BaseModel->delete()
+#7 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/CodeIgniter.php(934): App\Controllers\Admin\AsignaturaController->delete()
+#8 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /homepages/34/d971490128/htdocs/apps/upn212evaldoc/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-26 14:15:29 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbs11690318`.`evaluacion`, CONSTRAINT `evaluacion_asignatura_id_foreign` FOREIGN KEY (`asignatura_id`) REFERENCES `asignaturas` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1065): CodeIgniter\Model->doDelete()
+ 7 APPPATH/Controllers/Admin/AsignaturaController.php(155): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\AsignaturaController->delete()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

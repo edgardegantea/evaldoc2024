@@ -1,0 +1,301 @@
+ERROR - 2023-08-21 17:26:48 --> mysqli_sql_exception: Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email' in /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /homepages/34/d971490128/htdocs/apps/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /homepages/34/d971490128/htdocs/apps/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /homepages/34/d971490128/htdocs/apps/app/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+#8 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+#9 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 17:26:48 --> Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 17:29:09 --> mysqli_sql_exception: Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email' in /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /homepages/34/d971490128/htdocs/apps/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /homepages/34/d971490128/htdocs/apps/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /homepages/34/d971490128/htdocs/apps/app/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+#8 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+#9 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 17:29:09 --> Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 17:35:33 --> mysqli_sql_exception: Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email' in /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /homepages/34/d971490128/htdocs/apps/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /homepages/34/d971490128/htdocs/apps/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /homepages/34/d971490128/htdocs/apps/app/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+#8 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+#9 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 17:35:33 --> Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 17:37:24 --> mysqli_sql_exception: Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email' in /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /homepages/34/d971490128/htdocs/apps/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /homepages/34/d971490128/htdocs/apps/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /homepages/34/d971490128/htdocs/apps/app/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+#8 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+#9 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 17:37:24 --> Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 17:52:25 --> mysqli_sql_exception: Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email' in /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /homepages/34/d971490128/htdocs/apps/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /homepages/34/d971490128/htdocs/apps/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /homepages/34/d971490128/htdocs/apps/app/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+#8 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+#9 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 17:52:25 --> Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 17:55:00 --> mysqli_sql_exception: Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email' in /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /homepages/34/d971490128/htdocs/apps/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /homepages/34/d971490128/htdocs/apps/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /homepages/34/d971490128/htdocs/apps/app/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+#8 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+#9 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 17:55:00 --> Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 17:59:18 --> mysqli_sql_exception: Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email' in /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /homepages/34/d971490128/htdocs/apps/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /homepages/34/d971490128/htdocs/apps/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /homepages/34/d971490128/htdocs/apps/app/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+#8 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+#9 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 17:59:18 --> Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 18:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-21 18:04:08 --> mysqli_sql_exception: Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email' in /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /homepages/34/d971490128/htdocs/apps/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /homepages/34/d971490128/htdocs/apps/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /homepages/34/d971490128/htdocs/apps/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /homepages/34/d971490128/htdocs/apps/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /homepages/34/d971490128/htdocs/apps/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /homepages/34/d971490128/htdocs/apps/app/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+#8 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+#9 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /homepages/34/d971490128/htdocs/apps/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /homepages/34/d971490128/htdocs/apps/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 18:04:08 --> Duplicate entry 'enriquemelgarejo1998@gmail.com' for key 'email'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/Admin/UsuarioController.php(216): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->idue()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 18:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-08-21 18:21:43 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Views/admin/usuarios/show.php on line 16.
+ 1 APPPATH/Views/admin/usuarios/show.php(16): trim(null)
+ 2 SYSTEMPATH/View/View.php(213): include('/homepages/34/d971490128/htdocs/apps/app/Views/admin/usuarios/show.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('admin/usuarios/show', [], true)
+ 5 APPPATH/Controllers/Admin/UsuarioController.php(46): view('admin/usuarios/show', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->show('2447')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UsuarioController))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-21 18:21:43 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Views/admin/usuarios/show.php on line 16.
+ 1 APPPATH/Views/admin/usuarios/show.php(16): trim(null)
+ 2 SYSTEMPATH/View/View.php(213): include('/homepages/34/d971490128/htdocs/apps/app/Views/admin/usuarios/show.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('admin/usuarios/show', [], true)
+ 5 APPPATH/Controllers/Admin/UsuarioController.php(46): view('admin/usuarios/show', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->show('2447')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UsuarioController))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-21 18:21:43 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Views/admin/usuarios/show.php on line 49.
+ 1 APPPATH/Views/admin/usuarios/show.php(49): trim(null)
+ 2 SYSTEMPATH/View/View.php(213): include('/homepages/34/d971490128/htdocs/apps/app/Views/admin/usuarios/show.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('admin/usuarios/show', [], true)
+ 5 APPPATH/Controllers/Admin/UsuarioController.php(46): view('admin/usuarios/show', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->show('2447')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UsuarioController))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-21 18:21:43 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Views/admin/usuarios/show.php on line 55.
+ 1 APPPATH/Views/admin/usuarios/show.php(55): trim(null)
+ 2 SYSTEMPATH/View/View.php(213): include('/homepages/34/d971490128/htdocs/apps/app/Views/admin/usuarios/show.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('admin/usuarios/show', [], true)
+ 5 APPPATH/Controllers/Admin/UsuarioController.php(46): view('admin/usuarios/show', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->show('2447')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UsuarioController))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-21 18:21:43 --> [DEPRECATED] trim(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Views/admin/usuarios/show.php on line 71.
+ 1 APPPATH/Views/admin/usuarios/show.php(71): trim(null)
+ 2 SYSTEMPATH/View/View.php(213): include('/homepages/34/d971490128/htdocs/apps/app/Views/admin/usuarios/show.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('admin/usuarios/show', [], true)
+ 5 APPPATH/Controllers/Admin/UsuarioController.php(46): view('admin/usuarios/show', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\UsuarioController->show('2447')
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UsuarioController))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 18:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 18:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,33 @@
+CRITICAL - 2024-05-01 08:10:41 --> Undefined variable $promedio
+in APPPATH/Views/evaluacion/average.php on line 20.
+ 1 APPPATH/Views/evaluacion/average.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/homepages/34/d971490128/htdocs/apps/upn212evaldoc/app/Views/evaluacion/average.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/EvaluacionController.php(871): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->average()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 08:10:49 --> Undefined variable $promedio
+in APPPATH/Views/evaluacion/average.php on line 20.
+ 1 APPPATH/Views/evaluacion/average.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/homepages/34/d971490128/htdocs/apps/upn212evaldoc/app/Views/evaluacion/average.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/EvaluacionController.php(871): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->average()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 08:10:52 --> Undefined variable $promedio
+in APPPATH/Views/evaluacion/average.php on line 20.
+ 1 APPPATH/Views/evaluacion/average.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('/homepages/34/d971490128/htdocs/apps/upn212evaldoc/app/Views/evaluacion/average.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin/EvaluacionController.php(871): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Admin\EvaluacionController->average()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
