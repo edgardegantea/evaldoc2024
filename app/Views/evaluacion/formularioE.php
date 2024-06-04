@@ -71,7 +71,7 @@
                     Comentarios Adicionales
                 </div>
                 <div class="card-body">
-                    <textarea class="form-control" name="comentario" id="comentario"></textarea>
+                    <textarea required minlength="3" class="form-control" name="comentario" id="comentario"></textarea>
                 </div>
             </div>
 

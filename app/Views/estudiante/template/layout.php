@@ -268,7 +268,15 @@
                 <div class="mt-5">
                     <a href="<?= base_url('estudiante/evaluacion/'); ?>" class="nav-link text-center">
                         <i class="fas fa-3x fa-user-check text-light nav-icon"> </i>
-                        <p class="mt-2 text-light">REALIZAR EVALUACIÓN AL DESEMPEÑO DOCENTE</p>
+                        <p class="mt-2 text-light">Paso 1. REALIZAR EVALUACIÓN AL DESEMPEÑO DOCENTE</p>
+                    </a>
+                </div>
+
+
+                <div class="mt-5">
+                    <a href="<?= base_url('estudiante/evaluacion/CED') ?>" class="nav-link text-center">
+                        <i class="fas fa-3x fa-user-check text-light nav-icon"> </i>
+                        <p class="mt-2 text-light">Paso 2. GENERAR CONSTANCIA DE EVALUACIÓN AL DESEMPEÑO DOCENTE</p>
                     </a>
                 </div>
 

@@ -43,6 +43,11 @@ body {
 
             </form>
 
+            <div class="mt-5">
+                Recibirá un token en su bandeja de correo electrónico.
+                Favor de revisar su email para continuar con el proceso.
+            </div>
+
         </div>
     </div>
 

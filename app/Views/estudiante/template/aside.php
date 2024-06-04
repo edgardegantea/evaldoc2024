@@ -35,14 +35,14 @@
                 </li>
                 -->
 
-
+<!--
                 <li class="nav-item">
                     <a href="<?= base_url('estudiante/evaluacion/CED') ?>" class="nav-link" target="_blank">
-                        <i class="nav-icon fas fa-file-pdf"></i>
-                        <p>Constancia de evaluación docente</p>
+                        <i class="nav-icon fas fa-file"></i>
+                        <p class="text-white">Generar constancia de evaluación docente</p>
                     </a>
                 </li>
-
+-->
 
                 <!--
                 <li class="nav-item">

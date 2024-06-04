@@ -137,6 +137,12 @@
                 <button class="w-100 btn btn-primary btn-lg" type="submit">Iniciar sesión</button>
 
                 <br><br>
+                <section class="">
+                    <p class="text-white">Si no tienes una cuenta </p><h4><a href="/registro"><span class="badge bg-primary">Regístrate aquí</span></a></h4>
+                </section>
+
+                <br><br>
+                <p class="text-white">Si olvidaste tu contraseña da clic en</p>
                 <a class="btn btn-danger" href="<?= base_url('/password/request-reset'); ?>">Olvidé mi contraseña</a>
 
                 <div class="mt-5">
@@ -159,6 +165,9 @@
 
             </form>
         </main>
+
+
+
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>

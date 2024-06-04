@@ -42,7 +42,12 @@
                 <td><?php echo $usuario['id']; ?></td>
                 <th><?php echo $usuario['rol']; ?></th>
                 <th><?php echo $usuario['codigo']; ?></th>
-                <td><?php echo $usuario['nombre']; ?></td>
+                <td><?php echo $usuario['nombre']; ?>
+                    <?php if($usuario['reset_token']) : ?>
+                    <span class="badge bg-danger"><?php echo $usuario['reset_token']; ?></span>
+                    <?php echo $usuario['reset_expiration']; ?>
+                    <?php endif; ?>
+                </td>
                 <td><?php echo $usuario['email']; ?></td>
                 <td><?php echo $usuario['sexo']; ?></td>
                 <td>

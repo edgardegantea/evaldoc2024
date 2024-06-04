@@ -15,6 +15,10 @@ $routes->get('/', 'Home::index');
 $routes->match(['get', 'post'], 'login', 'UserController::login', ["filter" => "noauth"]);
 
 
+$routes->get('registro', 'RegistroController::new');
+$routes->post('registro', 'RegistroController::create');
+
+
 // $routes->get('evaluacion', 'Admin\PreguntasEvalController::index');
 // $routes->get('evaluacion/pp', 'Admin\PreguntasEvalController::index');
 // $routes->post('evaluacion/enviar', 'Admin\PreguntasEvalController::enviar');

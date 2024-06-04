@@ -17,15 +17,12 @@ class EvaluacionController extends BaseController
         $this->session = \Config\Services::session();
         $evaluacionModel = new EvaluacionModel();
 
-        // Realiza una consulta SQL que une las tablas evaluacion y asignatura
         $sql = "SELECT asignaturas.nombre AS subjectName, evaluacion.codigo_referencia AS evaluationCode FROM evaluacion
                 JOIN asignaturas ON evaluacion.asignatura_id = asignaturas.id
-                WHERE evaluacion.evaluador = " . $this->session->id . " AND evaluacion.created_at BETWEEN '2023-11-01' AND '2024-02-01"; // Reemplaza con el ID de usuario adecuado
+                WHERE evaluacion.evaluador = " . $this->session->id . " AND evaluacion.created_at > '2024-04-20'";
 
-        // Ejecuta la consulta
-        $query = $evaluacionModel->query($sql, [1]); // Reemplaza 1 con el ID de usuario adecuado
+        $query = $evaluacionModel->query($sql, [1]);
 
-        // Obtiene los resultados de la consulta
         $evaluatedSubjectsAndReferenceCodes = $query->getResult();
 
         // Carga la vista y pasa los datos a la vista
@@ -41,7 +38,6 @@ class EvaluacionController extends BaseController
         $asignaturaModel = new AsignaturaModel();
         $evaluacionModel = new EvaluacionModel();
 
-        // Retrieve evaluated subjects and their reference codes for the given user
         $evaluations = $evaluacionModel
             ->distinct()
             ->select('asignatura_id, codigo_referencia')
@@ -81,11 +77,9 @@ class EvaluacionController extends BaseController
     {
         $db = \Config\Database::connect();
         $session = session();
-        $sql = "SELECT asignaturas.nombre AS subjectName, evaluacion.codigo_referencia AS evaluationCode FROM evaluacion JOIN asignaturas ON evaluacion.asignatura_id = asignaturas.id WHERE evaluacion.evaluador = " . $session->id . " AND evaluacion.created_at BETWEEN '2024/03/01' AND '2024/04/30'";
+        $sql = "SELECT asignaturas.nombre AS subjectName, evaluacion.codigo_referencia AS evaluationCode FROM evaluacion JOIN asignaturas ON evaluacion.asignatura_id = asignaturas.id WHERE evaluacion.evaluador = " . $session->id . " AND evaluacion.created_at > '2024/05/16'";
 
         $query = $db->query($sql);
-
-
 
         $fechaActual = strftime('%d de %B de %Y', time());
 
@@ -106,12 +100,7 @@ class EvaluacionController extends BaseController
         $pdf->Image('assets/img/logo/upnlogotezpdf.jpg', 20, 15, 22, 22, '', '', 'T', false, 300, '', false, false, 0, false, false, false);
         // $pdf->Image('assets/img/logo/upnlogotezpdf.jpg', 20, 10, 22, 22, '', '', 'T', false, 300, '', false, false, 0, false, false, false);
 
-
-
-
-
         $pdf->SetFont('helvetica', '', 10);
-
 
         $pdf->Ln(0);
         $pdf->Cell(0, 0, 'UNIVERSIDAD PEDAGÓGICA NACIONAL', 0, 1, 'C');
@@ -134,7 +123,7 @@ class EvaluacionController extends BaseController
         $pdf->Ln(10);
 
         $pdf->SetFont('helvetica', 'B', 12);
-        $pdf->Cell(0, 0, 'Periodo evaluado: 2024-1 (Del 13 de enero de 2024 al 16 de marzo de 2024) ', 0, 1, 'C');
+        $pdf->Cell(0, 0, 'Periodo evaluado: Enero-Junio de 2024', 0, 1, 'C');
         $pdf->Ln(10);
 
         $estudiante = strtoupper($session->get('nombre') . ' ' . $session->get('apaterno') . ' ' . $session->get('amaterno'));

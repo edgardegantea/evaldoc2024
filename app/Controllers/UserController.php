@@ -15,7 +15,7 @@ class UserController extends BaseController
 
             $rules = [
                 'email' => 'required|min_length[6]|max_length[50]|valid_email',
-                'password' => 'required|min_length[8]|max_length[255]|validateUser[email,password]',
+                'password' => 'required|min_length[3]|max_length[255]|validateUser[email,password]',
             ];
 
             $errors = [

@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="text-center mb-5 text-uppercase">
-            Periodo evaluado: 2024-1 (Del 13 de enero de 2024 al 16 de marzo de 2024)
+            Periodo evaluado: Enero-Junio 2024
         </div>
         <div class="text-center text-uppercase mb-5">
             Alumno: <?= session()->get('nombre') ?> <?= session()->get('apaterno') ?> <?= session()->get('amaterno') ?>
